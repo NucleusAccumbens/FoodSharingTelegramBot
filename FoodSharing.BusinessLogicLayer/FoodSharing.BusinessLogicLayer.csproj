@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FoodSharingTelegramBot\FoodSharing.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\FoodSharing.DataAccessLayer\FoodSharing.DataAccessLayer.csproj" />
   </ItemGroup>
 
 </Project>
