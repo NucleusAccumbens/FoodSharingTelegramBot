@@ -20,7 +20,7 @@ namespace FoodSharing.TelegramBot
     public class TelegramBot : ITelegramBot
     {
         private static readonly string _token 
-            = "5348807851:AAE9mMG6oh_s_B4MGq7XYMj5UzRh9S88Fpk";
+            = "...";
         private readonly ITelegramBotClient _botClient = new TelegramBotClient(_token);
         private readonly ICommandAnalyzer _commandAnalyzer = new CommandAnalyzer();
 
